@@ -185,7 +185,7 @@ class FlutterCallKit {
           return null;
         }
         return _onProviderReset();
-      case "performAnswerCallAction":
+      case "onPerformAnswerCallAction":
         if (_performAnswerCallAction == null) {
           return null;
         }
