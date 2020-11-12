@@ -173,6 +173,7 @@ class FlutterCallKit {
   }
 
   Future<dynamic> _handleMethod(MethodCall call) async {
+      print("CallKit: got ${call.method}");
     switch (call.method) {
       case "didReceiveStartCallAction":
         if (_didReceiveStartCallAction == null) {
